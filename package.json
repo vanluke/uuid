@@ -1,0 +1,27 @@
+{
+  "name": "performance-uuid",
+  "version": "1.0.0",
+  "description": "generate uuid",
+  "main": "lib/index.js",
+  "scripts": {
+    "precompile": "npm run build",
+    "compile": "node_modules/.bin/babel --optional runtime -d lib/ src/",
+    "prepublish": "npm run compile",
+    "build": "node_modules/.bin/webpack -d -p --progress --hot",
+    "test": "node ./node_modules/mocha/bin/mocha --compilers js:babel-core/register --recursive"
+  },
+  "keywords": [
+    "uuid"
+  ],
+  "author": "Lukasz Gonciarz",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "webpack": "^1.13.1"
+  }
+}
