@@ -1,6 +1,6 @@
 {
   "name": "performance-uuid",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "generate uuid",
   "main": "lib/index.js",
   "scripts": {

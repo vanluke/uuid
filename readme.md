@@ -1,5 +1,5 @@
 # Create uuid
-## Resonably fast.
+## Reasonably fast.
 
 # Usage
 
