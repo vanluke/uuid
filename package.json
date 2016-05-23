@@ -10,6 +10,14 @@
     "build": "node_modules/.bin/webpack -d -p --progress --hot",
     "test": "node ./node_modules/mocha/bin/mocha --compilers js:babel-core/register --recursive"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanluke/uuid"
+  },
+  "bugs": {
+    "url": "https://github.com/vanluke/uuid/issues"
+  },
+  "homepage": "https://github.com/vanluke/uuid.git#readme",
   "keywords": [
     "uuid"
   ],
